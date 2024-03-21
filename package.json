@@ -1,0 +1,38 @@
+{
+  "name": "dictaexpedita",
+  "version": "1.0.0",
+  "description": "A micro-package to check if a value is not `undefined`. With proper TS typing!",
+  "author": "OrrinBode",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "type": "commonjs",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "index.mjs",
+    "index.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "default": "./index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnyaWalsh/dictaexpedita.git"
+  },
+  "keywords": [
+    "is-not-undefined",
+    "cupiditate",
+    "vero"
+  ],
+  "devDependencies": {
+    "np": "^7.7.0",
+    "typescript": "^4.0.0"
+  }
+}
